@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.124.0",
+    "eslint-plugin-import": "^2.22.1",
     "aws-cdk": "1.124.0",
     "jest": "^26.4.2"
   },
@@ -19,6 +20,10 @@
     "@aws-cdk/aws-codepipeline": "^1.125.0",
     "@aws-cdk/aws-codepipeline-actions": "^1.125.0",
     "@aws-cdk/core": "1.124.0",
-    "@aws-cdk/pipelines": "^1.125.0"
+    "@aws-cdk/pipelines": "^1.125.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-promise": "^5.1.0"
   }
 }
