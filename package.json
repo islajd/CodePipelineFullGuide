@@ -1,0 +1,24 @@
+{
+  "name": "code_pipeline_full_guide",
+  "version": "0.1.0",
+  "bin": {
+    "code_pipeline_full_guide": "bin/code_pipeline_full_guide.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.124.0",
+    "aws-cdk": "1.124.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-codecommit": "^1.125.0",
+    "@aws-cdk/aws-codepipeline": "^1.125.0",
+    "@aws-cdk/aws-codepipeline-actions": "^1.125.0",
+    "@aws-cdk/core": "1.124.0",
+    "@aws-cdk/pipelines": "^1.125.0"
+  }
+}
