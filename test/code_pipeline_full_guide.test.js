@@ -2,7 +2,7 @@
 // const{ expect, matchTemplate, MatchStyle } = require('@aws-cdk/assert')
 // const cdk = require('@aws-cdk/core')
 // const CodePipelineFullGuide = require('../lib/code_pipeline_full_guide-stack')
-const{ handler } = require('../lib/arithmetic/handler')
+const{ handler } = require('../src/arithmetic/handler')
 
 describe('Test arithmetic handler', () => {
   it('Check status code', async () => {
