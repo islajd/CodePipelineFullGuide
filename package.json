@@ -16,9 +16,11 @@
     "jest": "^26.4.2"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.125.0",
     "@aws-cdk/aws-codecommit": "^1.125.0",
     "@aws-cdk/aws-codepipeline": "^1.125.0",
     "@aws-cdk/aws-codepipeline-actions": "^1.125.0",
+    "@aws-cdk/aws-lambda": "^1.125.0",
     "@aws-cdk/core": "1.124.0",
     "@aws-cdk/pipelines": "^1.125.0",
     "babel-eslint": "^10.1.0",
