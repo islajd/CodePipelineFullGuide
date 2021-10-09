@@ -3,7 +3,7 @@ const handler = async (event) => {
   let b = event.body.b || 813
   return{
     statusCode: 200,
-    body: (a+b)
+    body: (a-b)
   }
 }
 
